@@ -12,11 +12,7 @@ import
 public class Account implements Serializable {
 	private static final long serialVersionUID = 1L;
 
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
-	@Column(name="ACCOUNT_ID")
-	private int accountId;
-
+	
 	@Column(name="ACCOUNT_NAME")
 	private String accountName;
 
