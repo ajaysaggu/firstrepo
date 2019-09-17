@@ -47,29 +47,6 @@ public class FormScreen implements Serializable {
 	@Column(name="PARENT_SCREEN_ID")
 	private int parentScreenId;
 
-	@Column(name="RECORD_TYPE")
-	private String recordType;
-
-	@Column(name="SCREEN_CATEGORY_LIST_ID")
-	private int screenCategoryListId;
-
-	@Column(name="SCREEN_DESCRIPTION")
-	private String screenDescription;
-
-	@Column(name="SCREEN_NAME")
-	private String screenName;
-
-	@Column(name="SCREEN_STATUS_LIST_ID")
-	private int screenStatusListId;
-
-	@Column(name="SCREEN_TABLE_NAME")
-	private String screenTableName;
-
-	@Column(name="SCREEN_TITLE")
-	private String screenTitle;
-
-	@Column(name="SCREEN_TITLE_HIDDEN")
-	private int screenTitleHidden;
 
 	@Column(name="SCREEN_TYPE_LIST_ID")
 	private int screenTypeListId;
