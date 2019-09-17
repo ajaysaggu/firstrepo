@@ -40,26 +40,9 @@ public class FormScreen implements Serializable {
 	private Date createdDate;
 
 	@Column(name="FORM_KEY")
-	private String formKey;
+	private String formKe;
 
-	@Column(name="FORM_URL")
-	private String formUrl;
-
-	@Column(name="IP_ADDRESS")
-	private String ipAddress;
-
-	@Column(name="IS_AUTHENTICATION_LIST_ID")
-	private int isAuthenticationListId;
-
-	@Column(name="IS_ESIGN_REQUIRED_LIST_ID")
-	private int isEsignRequiredListId;
-
-	@Column(name="LAST_MODIFIED_BY")
-	private int lastModifiedBy;
-
-	@Temporal(TemporalType.TIMESTAMP)
-	@Column(name="LAST_MODIFIED_DATE")
-	private Date lastModifiedDate;
+	
 
 	@Column(name="PARENT_SCREEN_ID")
 	private int parentScreenId;
