@@ -1,3 +1,7 @@
 dfdgdfgdfgdfgdfg
 tfhfhfghf
 dfgfgfgdgfd
+<<<<<<< HEAD
+=======
+sd
+>>>>>>> 0912bf3cf8d6c1144abb32ae333dcedbec8f46de
